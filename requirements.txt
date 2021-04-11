@@ -1,0 +1,17 @@
+Babel=2.9.0
+aiogram=2.12.1
+aiohttp=3.7.4.post0
+async-timeout=3.0.1
+attrs=20.3.0
+certifi=2020.12.5
+chardet=4.0.0
+idna=3.1
+multidict=5.1.0
+mysql-connector-python=8.0.23
+pip=21.0.1
+protobuf=3.15.8
+pytz=2021.1
+setuptools=56.0.0
+six=1.15.0
+typing-extensions=3.7.4.3
+yarl=1.6.3

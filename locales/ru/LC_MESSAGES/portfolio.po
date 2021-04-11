@@ -1,0 +1,69 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-04-11 10:42+0500\n"
+"PO-Revision-Date: 2021-04-11 10:44+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+msgid "Assalomu alaykum! Xush kelibsiz!"
+msgstr "Ассаламу алайкум! Добро пожаловать!"
+
+msgid ""
+"<b>Assalomu alaykum! Xush kelibsiz!</b> \n"
+"Sobirjonov Sanjarbek'ning portfolio botiga xush kelibsiz."
+msgstr ""
+"<b>Ассаламу алайкум! Добро пожаловать!</b> \n"
+"Добро пожаловать в портфельный бот Собиржонова Санжарбека."
+
+msgid "🎯 Ko'nikmalar"
+msgstr "🎯 Навыки"
+
+msgid "🇺🇿 Tillar"
+msgstr "🇺🇿 Языки"
+
+msgid "🏫 Ma'lumoti"
+msgstr "🏫 Степень"
+
+msgid "💻 Ishlari"
+msgstr "💻 Проекты"
+
+msgid "✅ Status"
+msgstr "✅ Статус"
+
+msgid "⚙️ Tilni almashtirish"
+msgstr "⚙️ Изменить язык"
+
+msgid "😎 Haqimda"
+msgstr "😎 Обо мне"
+
+msgid "— Bo'lim"
+msgstr "— Страница"
+
+msgid "🔙 Orqaga"
+msgstr "🔙 Назад"
+
+msgid "Topilmadi"
+msgstr "Не найден"
+
+msgid "Nomi"
+msgstr "Имя"
+
+msgid "Tavsifi"
+msgstr "Описание"
+
+msgid "Havola"
+msgstr "URL"
