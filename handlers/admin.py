@@ -117,14 +117,10 @@ async def set_project_description(message: types.Message, state):
 
 @dp.message_handler(state=ProjectState.IMAGE, content_types=types.ContentType.PHOTO)
 async def set_project_image(message: types.Message, state):
-    photo = message.photo[0]
-    file_id = photo.file_id
-    file = await bot.get_file(file_id)
-    extension = Path(file.file_path).suffix
-    image_name = f"{photo.file_unique_id}{extension}"
-    await bot.download_file(file.file_path, f"images/project_images/{image_name}")
+    photo = message.photo[-1]
+    path = await photo.download()
     await state.update_data({
-        "image": image_name
+        "image": path.name
     })
     await message.answer('URL ni kiriting')
     await ProjectState.next()

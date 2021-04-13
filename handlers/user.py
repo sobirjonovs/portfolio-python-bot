@@ -88,7 +88,7 @@ async def projects(callback: types.CallbackQuery):
     offset = 1
     project = db.select(table='projects', limit=f"{page_data},{offset}", one=True)
     projects = db.select(table='projects', what="COUNT(*) as count", one=True)
-    path = Path(__file__).parent.parent.joinpath("images/project_images")
+    path = Path(__file__).parent.parent
     pagination = inline_markup()
     next_p = 1
     next_p += int(page_data)
@@ -111,7 +111,7 @@ async def projects(callback: types.CallbackQuery):
         text += f"\n\n<b>• {_('Nomi')}:</b> {project['name']}\n<b>• {_('Tavsifi')}:</b> {project['description']}\n<b>• {_('Havola')}:</b> {project['url']}\n"
 
         await callback.message.answer_photo(
-            photo=open(path / project['image'], 'rb'),
+            photo=open(path.joinpath(project['image']), 'rb'),
             caption=text,
             reply_markup=pagination
         )
